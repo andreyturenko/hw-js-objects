@@ -79,12 +79,12 @@ const bookshop = new Book(
     city: "Lviv",
     bookName: "The old lion",
   },
-  "388$"
+  388
 );
 console.log("bookshop :>> ", bookshop);
 
 const ageOfBook = bookshop.ageOfBook();
 console.log(`Age of book : ${ageOfBook}`);
 
-bookshop.changePrice("194$");
+bookshop.changePrice(194);
 console.log("-50% off: New price :>> ", bookshop.price);
